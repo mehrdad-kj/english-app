@@ -1,3 +1,4 @@
+import Recipe from "./modules/dashboard/components/recipe.component";
 import SentenceForm from "./modules/dashboard/components/sentence.component";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
       <SentenceForm />
+      <Recipe />
     </>
   );
 }
